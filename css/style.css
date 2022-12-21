@@ -7,7 +7,6 @@ font-family: 'Slabo 13px', serif;
 */
 
 /*Обнуляющие стили*/
-/*Очистим все отступы и границы*/
 * {
     padding: 0;
     margin: 0;
@@ -21,7 +20,6 @@ font-family: 'Slabo 13px', serif;
             box-sizing: border-box;
   }
   
-  /*Убираем линии обводки некоторых браузеров*/
   :focus,
   :active {
     outline: none;
@@ -32,7 +30,6 @@ font-family: 'Slabo 13px', serif;
     outline: none;
   }
   
-  /*задаем блочными теги Html5*/
   nav,
   footer,
   header,
@@ -77,7 +74,7 @@ font-family: 'Slabo 13px', serif;
     vertical-align: top;
   }
 
-  /*My code*/
+ /*Мой код*/
 
   body{
     width: 100%;
@@ -776,7 +773,7 @@ font-family: 'Slabo 13px', serif;
       
     #block-1-text, #products-section-description, .name, .note{
       font-size: 8px;
-      line-height: 9px;
+      line-height: 13px;
     }
     
     .price{
